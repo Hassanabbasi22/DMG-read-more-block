@@ -1,0 +1,23 @@
+{
+  "apiVersion": 2,
+  "name": "dmg/read-more",
+  "title": "DMG Read More",
+  "category": "widgets",
+  "icon": "admin-links",
+  "description": "A block to insert a stylized anchor link to a post.",
+  "attributes": {
+    "postId": {
+      "type": "number",
+      "default": 0
+    },
+    "postTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "postLink": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js"
+}
